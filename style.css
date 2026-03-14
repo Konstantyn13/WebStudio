@@ -1,0 +1,259 @@
+.logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(0, 208, 255);
+    display: flex;
+    justify-content: flex-start;
+}
+span {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 1)
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    width: 1600px;
+    height: 50px;
+}
+.black {
+    width: 1600px;
+    height: 600px;
+    background-color: rgba(47, 48, 58, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.title {
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 6%;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skills-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+}
+.discription {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(117, 117, 117, 1);
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    gap: 50px;
+}
+.one {
+    width: 370px;
+    height: 294px;
+    position: absolute;
+    left: 215px;
+}
+.title-two {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.two {
+    position: absolute;
+    left: 615px;
+    width: 370px;
+    height: 294px;
+}
+.three {
+    width: 370px;
+    height: 294px;
+    position: absolute;
+    left: 1015px;
+}
+.members-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 668px;
+    top: 1540px;
+}
+.members {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style-type: none;
+    background-color: #F5F4FA;
+    padding: 94px 0;;
+}
+.jpg {
+    width: 270px;
+    height: 260px;
+    position: absolute;
+    left: 215px;
+    top: 1632px;
+}
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    margin-bottom: 94px;
+}
+.imgs img {
+    display: block;
+    max-width: 100%;
+}
+.img {
+    width: 270px;
+    height: 260px;
+    position: absolute;
+    top: 1632px;
+    left: 515px;
+}
+.img-two {
+    width: 270px;
+    height: 260px;
+    position: absolute;
+    top: 1632px;
+    left: 815px;
+}
+.img-three {
+    width: 270px;
+    height: 260px;
+    position: absolute;
+    top: 1632px;
+    left: 1115px;
+}
+.name {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    position: absolute;
+    top: 1922px;
+    left: 286px;
+    color: #212121;
+}
+.name-two {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    position: absolute;
+    top: 1922px;
+    left: 598px;   
+    color: #212121
+}
+.name-three {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    position: absolute;
+    top: 1922px;
+    left: 885px;
+    color: #212121;
+}
+.name-four {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    position: absolute;
+    top: 1922px;
+    left: 1178px;
+    color: #212121;
+}
+.role {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #757575;
+    position: absolute;
+    top: 1951px;
+    left: 285px;
+}
+.role-one {
+     font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: #757575;
+    position: absolute;
+    top: 1951px;
+    left: 577px;
+}
+.role-two {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #757575;
+    position: absolute;
+}
+.role-three {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #757575;
+    position: absolute;
+    top: 1951px;
+    left: 1207px;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+.btn {
+    width: 216px;
+    height: 50px;
+    background-color: #2196F3;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+}
+a {
+    color: rgb(0, 81, 255);
+    
+}
