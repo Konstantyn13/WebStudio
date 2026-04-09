@@ -153,3 +153,23 @@ footer {
 .logo {
    padding-right: 31px;
 }
+
+/* one side = 215px 
+two side = 215px 
+sum side =  215 + 215 = 430px 
+width screen = 1600px 
+container = 1600 - 430 = 1170px
+padding = 15px + 15px = 30px
+container = 1170px + 30px = 1200px
+.conainer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+*/
+
+.conainer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
