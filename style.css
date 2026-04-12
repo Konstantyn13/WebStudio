@@ -27,18 +27,25 @@ header {
     width: 1600px;
     height: 50px;
 }
+a {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #212121;
+}
+.active {
+    color: #2196F3;
+}
 .black {
+    padding: 200px 0;
     width: 100%;
-    height: 600px;
+    height: 300px;
     background-color: rgba(47, 48, 58, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
+    text-align: center;
 }
 .title {
-    margin: 0;
     font-family: "Roboto";
     font-size: 44px;
     line-height: 60px;
@@ -49,7 +56,6 @@ header {
     align-items: center;
     justify-content: center;
     padding: 0;
-    margin: 0;
 }
 .skills-title {
     font-family: "Roboto";
@@ -92,6 +98,7 @@ body {
     font-weight: 700;
     font-size: 24px;
     line-height: 100%;
+    text-align: center;
 }
 .imgs {
     display: flex;
@@ -161,15 +168,15 @@ width screen = 1600px
 container = 1600 - 430 = 1170px
 padding = 15px + 15px = 30px
 container = 1170px + 30px = 1200px
-.conainer {
+.container {
     width: 1200px;
     margin: 0 auto;
     padding: 0px 15px;
 }
 */
 
-.conainer {
-    width: 1200px;
+.container {
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0px 15px;
 }
