@@ -1,0 +1,124 @@
+*, 
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+span {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 1);
+    line-height: 100%;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.address {
+  display: flex;
+  gap: 30px;
+  margin-left: auto; 
+  font-style: normal;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px; 
+    flex-direction: row;
+}
+.nav-list {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  margin-left: 93px; 
+  padding: 0; 
+  align-items: center;
+  justify-content: center;
+}
+ul, li {
+    list-style-type: none;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    width: 1600px;
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #212121;
+}
+.active {
+    color: #2196F3;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: #2196F3;
+}
+.menu {
+    margin-bottom: 50px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    width: 130px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    border: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    color: #212121;
+}
+.container {
+    
+}
+.first-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.project-title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 6%;
+    color: #212121;
+}
+.second-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.last-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.card {
+    border: 1px solid #EEEEEE;
+}
+footer {
+    display: block;
+    height: 252px;
+    width: 100%;
+    background-color: #2F303A;
+    color: white;
+}
