@@ -1,19 +1,21 @@
-*, 
-*::after,
-*::before {
-    box-sizing: border-box;
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 span {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    color: rgba(0, 0, 0, 1);
-    line-height: 100%;
+    color: rgba(0, 0, 0, 1)
 }
 .navbar {
     display: flex;
+    gap: 30px;
     align-items: center;
-    justify-content: space-between;
 }
 .address {
   display: flex;
@@ -59,61 +61,122 @@ a {
 .active {
     color: #2196F3;
 }
-.logo {
-    font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-  color: #2196F3;
+.black {
+    padding: 200px 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(47, 48, 58, 1);
+    text-align: center;
 }
-.menu {
-    margin-bottom: 50px;
-    gap: 10px;
+.title {
+    font-family: "Roboto";
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 6%;
+    color: rgba(255, 255, 255, 1);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
-.btn {
-    width: 130px;
-    height: 38px;
-    border-radius: 4px;
-    background-color: #F5F4FA;
-    border: none;
-    font-family: "Roboto";
-    font-weight: 500;
-    line-height: 26px;
-    font-size: 16px;
-    color: #212121;
-}
-.container {
-    
-}
-.first-row {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-}
-.project-title {
+.skills-title {
     font-family: "Roboto";
     font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 6%;
-    color: #212121;
+    font-size: 14px;
 }
-.second-row {
+.discription {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(117, 117, 117, 1);
+}
+.skills {
     display: flex;
-    gap: 30px;
+    flex-direction: row;
+    list-style-type: none;
     justify-content: center;
+    gap: 50px;
 }
-.last-row {
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+.btn {
+    width: 216px;
+    height: 50px;
+    background-color: #2196F3;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+.title-two {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+}
+.imgs {
     display: flex;
-    gap: 30px;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
-.card {
-    border: 1px solid #EEEEEE;
+
+.imgs-container {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+
+.members {
+    padding: 94px 0;
+    text-align: center; 
+}
+
+
+.team-list {
+    display: flex;         
+    justify-content: center; 
+    gap: 30px;             
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.team-item {
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
+    border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px; 
+}
+
+
+.member-img {
+    display: block;
+    width: 270px;
+    height: 260px; 
+    margin-bottom: 30px;
+}
+
+
+.team-item h3 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.team-item p {
+    color: #757575;
+    font-size: 16px;
 }
 footer {
     display: block;
@@ -121,4 +184,43 @@ footer {
     width: 100%;
     background-color: #2F303A;
     color: white;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: #000000; 
+}
+
+.logo span {
+  color: #2196F3; 
+}
+
+/* one side = 215px 
+two side = 215px 
+sum side =  215 + 215 = 430px 
+width screen = 1600px 
+container = 1600 - 430 = 1170px
+padding = 15px + 15px = 30px
+container = 1170px + 30px = 1200px
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.footer-text {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 60px;
 }
